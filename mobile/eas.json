@@ -1,0 +1,26 @@
+{
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "distribution": "store",
+      "env": {}
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "mdefensa@blackstallion.com.ar", 
+        "ascAppId": "6473753703", 
+        "appleTeamId": "M4KK69U72M" 
+      }
+    }
+
+  }
+} 
+

@@ -1,0 +1,15 @@
+{
+    "services": "Services",
+    "events": "Events",
+    "horses": "Horses",
+    "equipment": "Equipment",
+    "aboutUs": "About us",
+    "pricing": "Pricing",
+    "langSelect": "Languages",
+    "es": "Spanish",
+    "en": "English",
+    "br": "Portugues",
+    "abbreviation": "USA",
+    "login": "Login",
+    "signUp": "Sign up"
+}

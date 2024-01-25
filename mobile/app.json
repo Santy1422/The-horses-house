@@ -1,0 +1,113 @@
+{
+  "expo": {
+    "name": "The-Horses-Houses",
+    "slug": "the-horses-houses",
+    "version": "1.3.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#231D43"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "scheme": "com.santy1422.horseridershouse",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCbVuXO4pNL7sSmObVC8PxOJmrA1ZTlcS4"
+      },
+      "usesAppleSignIn": true,
+      "buildNumber": "39",
+      "bundleIdentifier": "com.santy1422.horseridershouse",
+      "infoPlist": {
+        "NSCalendarsUsageDescription": "$(PRODUCT_NAME) requiere acceso a tu calendario para agregar eventos relacionados con las actividades de la aplicación y proporcionarte recordatorios oportunos de estos eventos.",
+        "NSRemindersUsageDescription": "$(PRODUCT_NAME) necesita acceso a tus recordatorios para crear alertas personalizadas sobre eventos y actividades que te interesen dentro de la aplicación, asegurando que no te pierdas de ninguna actividad importante.",
+        "NSCalendarsFullAccessUsageDescription": "$(PRODUCT_NAME) solicita acceso completo a tu calendario para gestionar eventos, lo cual incluye agregar, modificar y eliminar eventos relacionados con las actividades que ofrezca la aplicación.",
+        "NSRemindersFullAccessUsageDescription": "El acceso completo a tus recordatorios por parte de $(PRODUCT_NAME) es necesario para gestionar de manera integral las alertas de eventos y actividades dentro de la aplicación, permitiendo crear, modificar y eliminar recordatorios según tus necesidades e intereses.",
+        "NSMicrophoneUsageDescription": "$(PRODUCT_NAME) necesita acceso a tu micrófono para procesar pagos con 3d Secure.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "$(PRODUCT_NAME) requiere acceso a tu ubicación en todo momento para ofrecerte información relevante basada en tu ubicación actual.",
+        "NSLocationWhenInUseUsageDescription": "$(PRODUCT_NAME) requiere acceso a tu ubicación mientras usas la app para mejorar la experiencia de usuario con servicios basados en la ubicación."
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6e2bfa34-0b0b-4464-af90-0efe934e5d30"
+      }
+    },
+    "android": {
+      "package": "com.thehorseshouses",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#23254C"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "config": {},
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.CAMERA",
+        "android.permission.READ_CALENDAR",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "versionCode": 14,
+      "versionName": "4.1",      
+      "googleServicesFile": "./google-services.json",
+      "googleMaps": {
+        "apiKey": "AIzaSyCbVuXO4pNL7sSmObVC8PxOJmrA1ZTlcS4"
+      },
+      "scheme": "com.thehorseshouses"
+    },
+    "plugins": [
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "788530466713530",
+          "clientToken": "839dbcba952941dab288a52479fb2b8c",
+          "displayName": "The-Horses-Houses"
+        }
+      ]
+    ]
+  },
+
+  "web": {
+    "favicon": "./src/assets/favicon.png"
+  },
+  "plugins": [
+    [
+      "expo-image-picker",
+      {
+        "photosPermission": "custom photos permission",
+        "cameraPermission": " $(PRODUCT_NAME) abrira tu camara para que puedas subir documentos o informacion de interes.",
+        "microphonePermission": false
+      }
+    ],
+    [
+      "expo-camera",
+      {
+        "cameraPermission": " $(PRODUCT_NAME) accedera a tu camara para que puedas subir documentos o informacion de interes."
+      }
+    ],
+    [
+      "expo-calendar",
+      {
+        "calendarPermission": "$(PRODUCT_NAME) necesita acceso al calendario para agendar y recordarte de futuros eventos."
+      }
+    ],
+    [
+      "expo-apple-authentication"
+    ]
+  ],
+  "extra": {
+    "eas": {
+      "projectId": "6e2bfa34-0b0b-4464-af90-0efe934e5d30"
+    }
+  }
+}

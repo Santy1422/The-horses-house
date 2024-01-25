@@ -1,0 +1,60 @@
+/* 404 Page */
+
+.image-horse {
+    display: flex;
+}
+
+.container-button-search {
+    width: 91px;
+}
+
+@media (max-width: 960px) {
+    .image-horse {
+        display: none;
+    }
+
+    .container-error-404 {
+        justify-content: center;
+    }
+
+    .container-title-error {
+        justify-content: flex-start;
+    }
+
+    .container-general {
+        padding: 64px 16px;
+        border-top: 1px solid rgb(238, 237, 237);
+    }
+
+}
+
+@media (max-width: 540px) {
+    .title-error {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .subtitle-error {
+        font-size: 14px;
+    }
+
+    .container-search-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .container-button-search {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button-search {
+        width: 100%;
+    }
+}

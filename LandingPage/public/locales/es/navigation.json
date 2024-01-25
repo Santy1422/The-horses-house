@@ -1,0 +1,15 @@
+{
+    "services": "Servicios",
+    "events": "Eventos",
+    "horses": "Caballos",
+    "equipment": "Equipos",
+    "aboutUs": "Sobre nosotros",
+    "pricing": "Planes",
+    "langSelect": "Idiomas",
+    "es": "Español",
+    "en": "Inglés",
+    "br": "Portugues",
+    "abbreviation": "ESP",
+    "login": "Iniciar sesión",
+    "signUp": "Registrarse"
+}

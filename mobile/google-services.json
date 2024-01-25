@@ -1,0 +1,46 @@
+{
+    "project_info": {
+      "project_number": "1018261024468",
+      "project_id": "hrh-42ee1",
+      "storage_bucket": "hrh-42ee1.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:1018261024468:android:debdc4716dce73a6b69541",
+          "android_client_info": {
+            "package_name": "com.thehorseshouses"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "1018261024468-7287f877rkb23levdoc6nddijg6d4398.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyCztdzRmaMZVFd5CzYhziQ-inx3PSXTqU8"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "1018261024468-7287f877rkb23levdoc6nddijg6d4398.apps.googleusercontent.com",
+                "client_type": 3
+              },
+              {
+                "client_id": "1018261024468-p8d99dfv52dncvh3c1cf7ffsrfgbpeht.apps.googleusercontent.com",
+                "client_type": 2,
+                "ios_info": {
+                  "bundle_id": "com.santy1422.horseridershouse"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

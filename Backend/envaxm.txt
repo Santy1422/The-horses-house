@@ -1,0 +1,5 @@
+JWT_RANDOM_PASSWORD=KLASFLKAJSFLK21421@ASFDASF214
+MONGO_URI=mongodb://mongo:bryxl0WFeD3IetwBzAIc@containers-us-west-28.railway.app:6726     ///esta es el deplot e la db
+PORT=8080
+
+// transform this file to .env before turn on the server
